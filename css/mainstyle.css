@@ -1,0 +1,739 @@
+html{
+    font-size: 10px;
+}
+
+.loading{
+    background-color: #0A3CD1;
+    width: 100%;
+    height: 100%;
+}
+#fullpage{
+    display: none;
+}
+
+/*about us css*/
+.about-us-wrapper{
+    position: absolute;
+    max-width: 1200px;
+    left:0;
+    right:0;
+    top:15%;
+    margin: auto;
+    
+}
+#aboutus-contents-en{
+    margin: auto;
+   /* margin-top: 5rem;*/
+    left: 0;right: 0;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 4.5rem;
+
+    text-align: left;
+    word-break: keep-all;    
+    color: white;
+    
+}
+#aboutus-contents-kr{
+    margin: auto;
+    margin-top: 10%;
+    left: 0;right: 0;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 5rem;
+    text-align: left;
+    word-break: keep-all;    
+    color: white;
+}
+.aboutus-contents{
+    opacity: 0;
+    color: transparent;
+}
+#aboutus-contents-en b{
+    font-family: Sen;
+    font-weight: 600;
+    color: #0B36BC;
+    background-color: #E4F87A;
+
+}
+
+#aboutus-contents-kr b{
+    font-family: Noto Sans KR;
+    color: #0B36BC;
+    font-weight: 600;
+    background-color: #E4F87A;
+
+}
+.section2-logo{
+    position: absolute;
+    right: 12rem;
+    bottom: 7rem;
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6rem;
+    color:  #E4F87A;
+}
+
+
+
+/*keywords css*/
+.keywords {
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5rem;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .letter-wrapper{
+      opacity: 0;
+      z-index: 1;
+      flex: 1;
+      display: flex;
+      justify-content: space-around;
+  }
+ .letters {
+    width: 30rem;
+    height: 6rem;
+    opacity: inherit;
+    z-index: 2;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+/*    background-color: rgba(228,248,122,1);*/
+/*border: 1px solid #E4F87A;*/
+background: #E4F87A;
+color: #0B36BC;
+}
+
+.explain-video{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    font-family: aldrich;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: rgba(255,255,255,0.8);
+}
+
+.videx-wrap{
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+/*video*/
+
+
+#firstvideo-container{
+    position: absolute;
+    top: 0;
+    width: 33.3333%;
+    overflow:hidden;
+    display:block;
+    height: 100%;
+    z-index: 1;
+}
+#firstvideo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#secondvideo-container{
+    position: absolute;
+    top: 0;
+    left:33.3333%;
+    width: 33.34%;
+    overflow:hidden;
+    display:block;
+    height: 100%;
+    z-index: 1;
+
+}
+#secondvideo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#thirdvideo-container{
+    position: absolute;
+    top: 0;
+    left:66.65%;
+    width: 33.4%;
+    right:0;
+    overflow:hidden;
+    display:block;
+    height: 100%;
+    z-index: 1;
+}
+#thirdvideo{
+   /* margin-left: -100%;*/
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+
+}
+.videocover{
+    position: absolute;
+    background: rgba(10, 60, 209, 0.85);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+}
+
+
+/* .members */
+.section-wrapper{
+    position: relative;
+    max-width: 1200px !important;
+    
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.members-title {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    font-size: 6rem;
+
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+    color: #0B36BC;
+}
+.member-wrapper{
+    max-width: 1200px;
+    margin-top:4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.member-collum{
+
+font-family: Sen;
+font-style: normal;
+font-weight: normal;
+font-size: 2rem;
+color: #0B36BC;
+line-height: 4rem;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 3rem;
+    background-color:#0B36BC;
+}
+.member-name{
+    line-height: 3rem;
+}
+.biography{
+    margin-top: 2rem;
+    line-height: 3rem;
+}
+
+.personal-site{
+    border-top: 1px solid rgba(10, 60, 209, 0.6);
+    font-weight: 600;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: right;
+
+}
+
+.personal-site a{
+    text-decoration: none;
+    color: inherit;
+}
+.personal-site a:hover{
+    text-decoration: underline;
+}
+.shortcut-icon{
+    height: 1.5rem;
+}
+/*works */
+
+#secondgardenvid{
+    width: 80%;
+    margin: 2rem 10%;
+}
+.worktitle{
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #0B36BC;
+}
+.workexplain{
+    font-family: Sen;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5rem;
+color: #0B36BC;
+line-height: 2rem;
+}
+.worktitle a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/*what-we-experienced*/
+
+.section2-2-wrapper{
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    position: absolute;
+    display: grid;
+    flex-direction: column;
+    z-index: 9999;
+
+    justify-content: center;
+    align-content: center;
+}
+.experience-title{
+    width: max-content;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    font-size: 6rem;
+
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(228,248,122,1);
+    background-color: rgba(10, 60, 209, 1);
+}
+.section3-img-wrapper{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.ex-img{
+    border: 8px solid rgba(10, 60, 209, 1);
+    
+}
+
+
+
+/*contact*/
+.section3-wrapper{
+    display: block;
+    color: white;
+    width: fit-content;
+    margin: auto !important;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.slogan{
+    font-family: Aldrich;
+font-style: normal;
+font-weight: normal;
+font-size: 3.55rem;
+}
+.line-for-slogan{
+    margin-top: 0.5rem;
+    border-top: 1px solid white;
+}
+.contact{
+    margin-top: 2rem;
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5.5rem;
+}
+.links-for-contact{
+    margin-top: 2.5rem;
+}
+.footer {
+    width: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    color: rgba(255,255,255,0.8);
+
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+@media (max-height: 800px){
+
+    .about-us-wrapper{
+        position: relative;
+        width: auto;
+        margin: auto 8%;
+        top: 0;
+        
+    }
+    #aboutus-contents-en{
+     
+        font-size: 2.5rem;
+        line-height: 4rem;
+    
+        
+    }
+    #aboutus-contents-kr{
+        font-size: 2.3rem;
+        line-height: 4.5rem;
+  
+    }
+
+.section2-logo{
+    display: none;
+}
+
+
+.section-wrapper {
+}
+
+.members-title {
+    width:fit-content;
+    margin: 0 5%;
+    font-size: 3rem;
+    padding-top: 0;
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.member-wrapper {
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.member-collum {
+    width: 100%;
+    margin-right:2rem;
+
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+.member-name{
+    line-height: 2.2rem;
+}
+.biography{
+    line-height: 2rem;
+}
+
+/*works */
+
+
+.worktitle{
+    margin: 0 5%;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0B36BC;
+}
+.workexplain{
+    margin: 0 5%;
+    font-family: Sen;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5rem;
+color: #0B36BC;
+}
+
+   
+ 
+
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    .keywords {
+        position: absolute;
+        top:0;
+        width: 100%;
+        font-size: 2rem;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .keywords .letter-wrapper {
+        display: grid;
+        padding: 0;
+        margin: 0;
+        top:0;
+        bottom: 0;
+        justify-content: center;
+        align-content: center;
+    }
+    .letters{
+        width: 20rem;
+        height: 4rem;
+    }
+    #firstvideo-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 33.3333%;
+        overflow: hidden;
+        width: 100%;
+        z-index: 1;
+    }
+    #firstvideo {
+        margin-left: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #secondvideo-container {
+        position: absolute;
+        top: 33.3333%;
+        left: 0;
+        height: 33.3333%;
+        overflow: hidden;
+        width: 100%;
+        z-index: 1;
+    }
+
+    #thirdvideo-container {
+        position: absolute;
+        top: 66.6666%;
+        left: 0; 
+        height: 33.3333%;
+        overflow: hidden;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .explain-video{
+        height: 100%;
+        flex-direction: column;
+        bottom: auto;
+        top: 13%;
+        font-size: 1rem;
+    }
+
+
+
+    .about-us-wrapper{
+        position: relative;
+        width: auto;
+        margin: auto 13%;
+        top: 0;
+        
+    }
+
+#aboutus-contents-en{
+   /* margin-top: 5rem;*/
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: left;
+    
+}
+#aboutus-contents-kr{
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    line-height: 2.7rem;    
+    text-align: left;
+    word-break: keep-all;
+
+}
+.section2-logo{
+    display: none;
+    right: 4rem;
+    bottom: 3.5rem;
+    font-size: 3rem;
+}
+
+
+
+.section-wrapper {
+    position: relative;
+    width: auto !important;
+    height: auto;
+    margin: 0 11%;
+    left: 0;
+    right: 0;
+}
+
+.members-title {
+    width:fit-content;
+    font-size: 3rem;
+    padding-top: 0;
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.member-wrapper {
+    width: inherit;
+    margin-top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.member-collum {
+    width: 100%;
+
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.member-name{
+    margin-top: 20%;
+    line-height: 2.2rem;
+}
+.member-name b{
+    font-size: 1.8rem;
+}
+.biography{
+    margin-top: 7%;
+    line-height: 2rem;
+}
+
+.image {
+    margin-top: 10%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+    display: none;
+}
+.member-align-br{
+    display: none;
+}
+.personal-site{
+}
+
+/*works */
+
+#secondgardenvid{
+    width: 100%;
+    margin: 2rem 0;
+}
+.worktitle{
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #0B36BC;
+}
+.workexplain{
+    font-family: Sen;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+color: #0B36BC;
+}
+.worktitle a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*whatwe experienced*/
+.section2-2-wrapper{
+    z-index: 9999;
+}
+
+.experience-title{
+    font-size: 2.2rem;
+    height: 4rem;
+    z-index: 9999;
+}
+.ex-img{
+    border: 4px solid rgba(10, 60, 209, 1);
+}
+
+
+
+.section3-wrapper{
+    display: block;
+    color: white;
+    width: fit-content;
+    margin: auto !important;
+    left: 0;
+    right: 0;
+    padding-top: 3rem;
+    text-align: center;
+}
+.slogan{
+font-size: 1.6rem;
+}
+.line-for-slogan{
+    margin-top: 0.2rem;
+    border-top: 1px solid white;
+}
+.contact{
+    margin-top: 0.7rem;
+    font-size: 2.5rem;
+}
+.links-for-contact
+{
+    margin-top: 2em;
+}
+.links-for-contact .instagram{
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+    font-size: 1.2rem;
+}
+.footer-right{
+    text-align: right;
+}
+
+    /*
+    .subtitle-short
+    {
+      display:inline-block;
+    }
+    .subtitle-long
+    {
+      display: none;
+    }
+
+*/
+
+}
